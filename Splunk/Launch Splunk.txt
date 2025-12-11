@@ -1,0 +1,1 @@
+sudo /opt/splunk/bin/splunk restart --accept-license
