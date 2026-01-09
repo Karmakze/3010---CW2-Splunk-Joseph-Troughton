@@ -46,7 +46,7 @@ Within the BOTSv3 investigation, Tier 2 responsibilities are demonstrated throug
 
 ### 3.1 Environment Overview
 
-Splunk was downloaded and deployed within an ubuntu 24.04 virtual machine using Virt-Manager with KVM ![](image1.png)as shown in figure 1 Below. 
+Splunk was downloaded and deployed within an ubuntu 24.04 virtual machine using Virt-Manager with KVM ![](UsedImages/image1.png)as shown in figure 1 Below. 
 
 **Figure 1** 
 
