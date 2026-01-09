@@ -270,5 +270,276 @@ https://radiantsecurity.ai/learn/soc-tier-1-vs-tier-2-vs-tier-3/
 
 ‌[4] “Boss of the SOC (BOTS) Dataset Version 3,” *GitHub*, Mar. 26, 2022. https://github.com/splunk/botsv3
 
+
+
+**Student Declaration of AI Tool use in this Assessment**
+
+Please indicate your level of usage of generative AI for this assessment - please tick the appropriate category(s). 
+
+If the “Assisted Work” or “Partnered Work” category is selected, please expand on the usage and in which elements of the assignment the usage refers to.
+
+<table>
+  <tr>
+   <td>
+
+**Solo Work**
+
+</td>
+   <td>
+
+**S1 - Generative AI tools have not been used for this assessment.**
+
+</td>
+   <td>
+
+**☐**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+**Assisted Work**
+
+</td>
+   <td>
+
+**A1 – Idea Generation and Problem Exploration**
+
+Used to generate project ideas, explore different approaches to solving a problem, or suggest features for software or systems. Students must critically assess AI-generated suggestions and ensure their own intellectual contributions are central.
+
+</td>
+   <td>
+
+**☒**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+</td>
+   <td>
+
+**A2 - Planning & Structuring Projects** \
+AI may help outline the structure of reports, documentation and projects. The final structure and implementation must be the student’s own work.
+
+</td>
+   <td>
+
+**☒**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+</td>
+   <td>
+
+**A3 – Code Architecture**
+
+AI tools maybe used to help outline code architecture (e.g. suggesting class hierarchies or module breakdowns). The final code structure must be the student’s own work.
+
+</td>
+   <td>
+
+**☐**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+</td>
+   <td>
+
+**A4 – Research Assistance**
+
+Used to locate and summarise relevant articles, academic papers, technical documentation, or online resources (e.g. Stack Overflow, GitHub discussions. The interpretation and integration of research into the assignment remain the student’s responsibility.
+
+</td>
+   <td>
+
+**☒**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+</td>
+   <td>
+
+**A5 - Language Refinement** \
+Used to check grammar, refine language, improve sentence structure in documentation not code. AI should be used only to provide suggestions for improvement. Students must ensure that the documentation accurately reflects the code and is technically correct.
+
+</td>
+   <td>
+
+**☒**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+</td>
+   <td>
+
+**A6 – Code Review**
+
+AI tools can be used to check comments within the code and to suggest improvements to code readability, structure or syntax.  AI should be used only to provide suggestions for improvement. Students must ensure that the code accurately reflects their knowledge and is technically correct.
+
+</td>
+   <td>
+
+**☐**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+</td>
+   <td>
+
+**A7 - Code Generation for Learning Purposes** \
+Used to generate example code snippets to understand syntax, explore alternative implementations, or learn new programming paradigms. Students must not submit AI-generated code as their own and must be able to explain how it works.
+
+</td>
+   <td>
+
+**☐**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+</td>
+   <td>
+
+**A8 - Technical Guidance & Debugging Support** \
+AI tools can be used to explain algorithms, programming concepts, or debugging strategies. Students may also help interpret error messages or suggest possible fixes. However, students must write, test, and debug their own code independently and understand all solutions submitted.
+
+</td>
+   <td>
+
+**☒**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+</td>
+   <td>
+
+**A9 - Testing and Validation Support** \
+AI may assist in generating test cases, validating outputs, or suggesting edge cases for software testing. Students are responsible for designing comprehensive test plans and interpreting test results.
+
+</td>
+   <td>
+
+**☐**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+</td>
+   <td>
+
+**A10 - Data Analysis and Visualization Guidance** \
+AI tools can help suggest ways to analyse datasets or visualize results (e.g. recommending chart types or statistical methods). Students must perform the analysis themselves and understand the implications of the results.
+
+</td>
+   <td>
+
+**☐**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+</td>
+   <td>
+
+**A11 - Other uses not listed above**
+
+Please specify:
+
+</td>
+   <td>
+
+**☐**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+**Partnered Work**
+
+</td>
+   <td>
+
+**P1 - Generative AI tool usage has been used integrally for this assessment**
+
+Students can adopt approaches that are compliant with instructions in the assessment brief.
+
+Please Specify:
+
+</td>
+   <td>
+
+**☐**
+
+</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+   <td>
+
+**Please provide details of AI usage and which elements of the coursework this relates to:** Structure, finding potential information sources, grammar checking, Documentation searching and write search criteria 
+
+</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+   <td>
+
+I understand that the ownership and responsibility for the academic integrity of this submitted assessment falls with me, the student.
+
+</td>
+   <td>
+
+**☒**
+
+</td>
+  </tr>
+  <tr>
+   <td>
+
+I confirm that all details provide above are an accurate description of how AI was used for this assessment.
+
+</td>
+   <td>
+
+**☒**
+
+</td>
+  </tr>
+</table>
+
+
+
 ‌
 
