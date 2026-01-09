@@ -46,8 +46,8 @@ Within the BOTSv3 investigation, Tier 2 responsibilities are demonstrated throug
 
 ### 3.1 Environment Overview
 
-Splunk was downloaded and deployed within an ubuntu 24.04 virtual machine using Virt-Manager with KVM ![](UsedImages/image1.png)as shown in figure 1 Below. 
-
+Splunk was downloaded and deployed within an ubuntu 24.04 virtual machine using Virt-Manager with KVM as shown in figure 1 Below. 
+![](UsedImages/image1.png)
 **Figure 1** 
 
  This machine was configured with 8192MB of memory, 6 virtual CPUs, a single 65gb disk, internet and was accessed with the Spice display manager, these specification exceed what is required to support large-scale log ingestion an analysis but contributes to a smoother experience. I chose this method over VMWare as even though I am familiar with both and had VMWare installed, I found VMWare an to run less consistently than Virt-Manager on my system which runs Linux where Virt-Manager is far more supported.
@@ -56,21 +56,21 @@ Splunk was downloaded and deployed within an ubuntu 24.04 virtual machine using 
 
 The Splunk Package was installed using the official Linux .tgz package obtained from the link given in by my lecturer. This installation was performed though CLI instead of GUI shown in figure 2 below which is important practice for real world administrative processes where a GUI may not be available.
 
-![](image2.png)
+![](UsedImages/image2.png)
 
 **Figure 2**
 
 Navigated to its location in Gnome file manager to see that it was correctly installed as shown in figure 3. Command to install Splunk was then run successfully and Splunk was installed, configured and connected to as show in figure 4 & 5.
 
-![](image3.png)
+![](UsedImages/image3.png)
 
 **Figure 3**
 
-![](image4.png)
+![](UsedImages/image4.png)
 
 **Figure 4**
 
-![](image5.png)
+![](UsedImages/image5.png)
 
 **Figure 5**
 
@@ -78,17 +78,17 @@ Navigated to its location in Gnome file manager to see that it was correctly ins
 
 The BOTSv3 was then downloaded from the official repository, then navigated using Gnome’s file manager as shown in Figure 7 I move it using the file manager (ctrl + x) as well instead of the “mv” command by adding “admin://“ to the root of the file name shown in Figure 4 and took a picture of it in the new location at /opt/splunk/etc/apps as shown in figure 7.
 
-![](image6.png)
+![](UsedImages/image6.png)
 
 **Figure 6**
 
-![](image7.png)
+![](UsedImages/image7.png)
 
 **Figure 7**
 
 Now the BOTSv3 Dataset was ingested it could be accessed via indexing with the command ‘index=”botsv3”’ if this command successfully searches and bring up the dataset and crosscheck the amount of event to the requirement “2,083,056” I could confirm I had gotten the right dataset and added it successfully as shown below in figure 8.
 
-![](image8.png)
+![](UsedImages/image8.png)
 
 **Figure 8**
 
@@ -113,7 +113,7 @@ This approach aligns with SOC best practices, as identity-based analysis is a co
 Answer: \
 The following IAM users were observed accessing AWS services: bstoll, btun, splunk_access, web_admin
 
-![](image9.png)
+![](UsedImages/image9.png)
 
 ### 4.2 Detection of AWS API Activity Without MFA
 
@@ -131,7 +131,7 @@ Events related to console logins were excluded to ensure the focus remained on A
 
 #### Answer:
 
-userIdentity.sessionContext.attributes.mfaAuthenticated![](image10.png)
+userIdentity.sessionContext.attributes.mfaAuthenticated![](UsedImages/image10.png)
 
 ### 4.3 Identification of Web Server Processor Type
 
@@ -151,7 +151,7 @@ Hardware baselining is important in SOC environments to detect anomalies such as
 
 E5-2676
 
-![](image11.png)
+![](UsedImages/image11.png)
 
 ### 4.4 Identification of Public S3 Bucket Misconfiguration
 
@@ -169,7 +169,7 @@ This represents a common cloud misconfiguration and is a high-severity finding i
 
 #### Answer:
 
-9a33d8df-1e16-4d58-b36d-8e80ce68f8a3![](image12.png)
+9a33d8df-1e16-4d58-b36d-8e80ce68f8a3![](UsedImages/image12.png)
 
 ### 4.5 Identification of Responsible IAM User
 
@@ -201,7 +201,7 @@ The requestParameters.bucketName field within the PutBucketAcl event specifies w
 
 frothlywebcode
 
-![](image13.png)
+![](UsedImages/image13.png)
 
 ### 4.7 Identification of Uploaded File to Public S3 Bucket
 
